@@ -4,6 +4,10 @@ This project is a program to manage bicycle rentals. It enables the creation of 
 
 The program was created as part of the *Software Development Advanced Techniques* module of the MSc Computer Science course at Newcastle University in February 2021 but has been revised and updated in October 2022.
 
+## UML class diagram
+
+<img src="https://github.com/kidijkmans/bike-rental-application/blob/main/UML-class-diagram.jpg" width="500">
+
 ## Getting started
 
 1. Install [Java](https://www.oracle.com/java/technologies/downloads/#java17)
