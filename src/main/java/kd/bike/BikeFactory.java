@@ -1,7 +1,6 @@
 package kd.bike;
 
 import java.util.HashMap;
-import java.util.Map;
 
 /**
  * The BikeFactory class is responsible for returning an instance of one of its
@@ -10,7 +9,7 @@ import java.util.Map;
 public abstract class BikeFactory implements Bike {
 
     // Bikes record
-    private static final Map<String, Bike> BIKES = new HashMap<String, Bike>();
+    private static final HashMap<String, Bike> BIKES = new HashMap<String, Bike>();
 
     // Bike types
     public static final String ROAD_BIKE = "road";
