@@ -7,7 +7,7 @@ import java.util.Map;
 
 public final class CustomerNumber {
 
-    private static final Map<String, CustomerNumber> customerNumbers = new HashMap<String, CustomerNumber>();
+    private static final Map<String, CustomerNumber> CUSTOMER_NUMBERS = new HashMap<String, CustomerNumber>();
     private final String strRep;
 
     private CustomerNumber(String strRep) {
@@ -48,10 +48,10 @@ public final class CustomerNumber {
         boolean newCNCreated = false;
 
         while (!newCNCreated) {
-            n = customerNumbers.get(part1 + part2);
+            n = CUSTOMER_NUMBERS.get(part1 + part2);
             if (n == null) {
                 n = new CustomerNumber(part1 + part2); // unique instance
-                customerNumbers.put(part1 + part2, n); // add instance to HashMap
+                CUSTOMER_NUMBERS.put(part1 + part2, n); // add instance to HashMap
                 newCNCreated = true; // stop the while loop
             }
             part2++;
