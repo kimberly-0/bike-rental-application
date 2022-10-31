@@ -6,7 +6,7 @@ The program was created as part of the *Software Development Advanced Techniques
 
 ## UML class diagram
 
-<img src="https://github.com/kidijkmans/bike-rental-application/blob/main/UML-class-diagram.jpg" width="500">
+<img src="https://github.com/kidijkmans/bike-rental-application/blob/main/UML-class-diagram.jpg" >
 
 ## Getting started
 
