@@ -6,3 +6,7 @@ target/
 
 ## Test folder
 src/test/
+
+## IDE
+.vscode/
+.idea/
